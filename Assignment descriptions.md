@@ -480,7 +480,12 @@
 
 **This week’s task is to build an Android application that allows registering users into the system and listing them. You will need a main activity, an activity for collecting user information, and a third activity for listing users. Additionally, you need a `User` class for user data and a `UserStorage` class to hold `User` objects. Make `UserStorage` a Singleton to make it easy to access. (Note that you do not need to implement the `removeUser` method.)**
 
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%202.png?raw=true)
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%203.png?raw=true)
+
 **The second view lists the added users. You can implement the view in whichever way you think best.**
+
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%204.png?raw=true)
 
 **Points for the assignment are awarded as follows:**
 
@@ -503,3 +508,79 @@
 **5 points**
 
 - When adding a user, the user can select an image. It is enough to choose an image from a pre-defined catalog (dropdown menu or radio buttons), or you can implement an option to upload an image. The image should also be visible in the user listing.
+
+# Week 10
+
+**Continue with the previous week’s program with additional features. Each new feature is worth one point, and you can implement whichever features you want.**
+
+**1 point**
+
+- The program automatically saves the user list every time a new user is added.
+
+**1 point**
+
+- The program automatically loads the user list every time the program starts.
+
+**1 point**
+
+- The program lists users alphabetically by surname (you must use `RecyclerView` for this – if you did this last week, you don’t need to do it again; just use the existing implementation).
+
+**1 point**
+
+- When adding a user, checkboxes are used to select all the qualifications that the user has already completed.
+
+**1 point**
+
+- When displaying user information, list all the qualifications that the user has completed (you must use `RecyclerView` for this – if you did this last week, you don’t need to do it again; just use the existing implementation).
+
+# Week 11
+
+**This week, we will create a simple to-do/shopping list application, which allows you to add, edit, and delete items.**
+
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%205.png?raw=true)
+
+**1 point**
+
+- The application can add items.
+
+**2 points**
+
+- The application lists items on the screen using `RecyclerView`.
+
+**3 points**
+
+- The application can delete added items.
+
+**4 points**
+
+- The application can edit added items.
+
+**5 points**
+
+- The application allows choosing whether to display items in chronological or alphabetical order.
+
+# Week 12
+
+**This week, we will develop the to-do/shopping list application to use fragments for the user interface. The goal is to use separate fragments for listing items and for adding new items. Additionally, the application will have a section at the bottom that continuously shows items marked as "super important". Note that this week, you do not necessarily need to implement editing and deleting functionality.**
+
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%206.png?raw=true)
+
+**1 point**
+
+- When adding a new item to the list, it can be marked as "super important".
+
+**2 points**
+
+- The application uses at least two fragments.
+
+**3 points**
+
+- The application contains only one `Activity`.
+
+**4 points**
+
+- The application uses a `TabLayout`.
+
+**5 points**
+
+- The application has a separate `Fragment` that displays items marked as "super important". 
