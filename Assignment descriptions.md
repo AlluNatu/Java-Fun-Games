@@ -4,9 +4,6 @@
 3) Write a Java program that prints "Hello World!" to the screen.
 
 # Week 2
-Here’s the translation:
-
----
 
 **Write a program where you create a hedgehog object and control it through a menu structure. You will need an `App.java` file similar to the one from the first week. This file should contain the main method with the menu structure. Additionally, you need a `Hedgehog.java` file, which defines the `Hedgehog` class.**
 
@@ -68,9 +65,6 @@ Here’s the translation:
 
 
 # Week 3
-Here’s the translation:
-
----
 
 **In this week’s exercises, you will build a zoo. You will need an `App.java` file with a menu and additionally `Zoo` and `Animal` classes.**
 
@@ -159,10 +153,6 @@ Here’s the translation:
       *** Esimerkkiajo päättyy ***
 
   # Week 4
-
-  Here's the translation:
-
----
 
 **In this week’s exercises, you will build a calculator class that can calculate course grades for students. You will need an `App.java` file with a menu and additionally `Calculator`, `University`, and `Student` classes. You might also need a `Grade` class depending on your implementation.**
 
@@ -310,9 +300,6 @@ Here’s the translation:
       *** Esimerkkiajo päättyy ***
 
   # Week 5
-Here’s the translation:
-
----
 
 **This week, the goal is to practice inheritance. Your task is to create the `Vehicle`, `Car`, `Plane`, `Ship`, and `Engine` classes. The names listed above are mandatory and cannot be changed. All vehicles have an engine object. The engine has a name and power. For cars, the values are always "V8" and 300, for planes "Jet Engine" and 500, and for ships "Wärtsilä Super" and 1000.**
 
@@ -414,15 +401,12 @@ Here’s the translation:
           *** Esimerkkiajo päättyy ***
 
   # Week 7
-  Here’s the translation:
-
----
 
 **Week 7’s assignment is a bit more extensive than previous tasks, and you can earn 7 points instead of 5. These extra points will count towards the course evaluation, allowing you to make up for lost points or prepare for a rainy day.**
 
 **The task is to build a study system similar to Sisu. Below is a class diagram for the system that needs to be implemented. In the main program (`App.java`), you will create an object from the `Gifu` class, which allows creating new courses, new students, and adding students to courses. Additionally, various listings can be performed.**
 
-![Tree](main/pasted image 0.png)
+![main/pasted image 0.png](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%200.png?raw=true)
 
 **A few notes about the program:**
 
@@ -469,3 +453,23 @@ Here’s the translation:
 **7 points**
 
 - The program should allow listing all grades for all students across all courses.
+
+# Week 8
+
+**The goal for this week is to get the Android Studio development environment up and running and to build your first functional Android application.**
+
+**The application itself is quite simple. It will have two fields where the user can input numbers, and then four buttons for performing addition, subtraction, multiplication, and division on these numbers. The result of the calculation should be displayed in a text field below the buttons. Note that performing calculations with integers is sufficient, but you can also make the calculator work with floating-point numbers if you prefer. The user interface might look something like the example image below. You can customize the colors, fonts, and shapes as you like.**
+
+**Points for the assignment are awarded as follows:**
+
+**1 point**
+
+- The application starts up and contains all the required user interface elements (i.e., buttons and input fields).
+
+**3 points**
+
+- The application can perform at least one calculation.
+
+**5 points**
+
+- The application functions as a fully operational four-function calculator.
