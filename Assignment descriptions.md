@@ -460,6 +460,8 @@
 
 **The application itself is quite simple. It will have two fields where the user can input numbers, and then four buttons for performing addition, subtraction, multiplication, and division on these numbers. The result of the calculation should be displayed in a text field below the buttons. Note that performing calculations with integers is sufficient, but you can also make the calculator work with floating-point numbers if you prefer. The user interface might look something like the example image below. You can customize the colors, fonts, and shapes as you like.**
 
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%201.png?raw=true)
+
 **Points for the assignment are awarded as follows:**
 
 **1 point**
@@ -473,3 +475,31 @@
 **5 points**
 
 - The application functions as a fully operational four-function calculator.
+
+# Week 9
+
+**This week’s task is to build an Android application that allows registering users into the system and listing them. You will need a main activity, an activity for collecting user information, and a third activity for listing users. Additionally, you need a `User` class for user data and a `UserStorage` class to hold `User` objects. Make `UserStorage` a Singleton to make it easy to access. (Note that you do not need to implement the `removeUser` method.)**
+
+**The second view lists the added users. You can implement the view in whichever way you think best.**
+
+**Points for the assignment are awarded as follows:**
+
+**1 point**
+
+- The application starts up and allows creating new users, which are saved in the `UserStorage` object.
+
+**2 points**
+
+- Users can see the contents of `UserStorage`. It is sufficient to print the information to the console.
+
+**3 points**
+
+- The contents of `UserStorage` can be viewed within the application. You can display all the information in a text field, for example.
+
+**4 points**
+
+- The contents of `UserStorage` are displayed in a stylish manner (subjective) using the `RecyclerView` component.
+
+**5 points**
+
+- When adding a user, the user can select an image. It is enough to choose an image from a pre-defined catalog (dropdown menu or radio buttons), or you can implement an option to upload an image. The image should also be visible in the user listing.
