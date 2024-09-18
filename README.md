@@ -439,7 +439,7 @@ By the end of the course, I am able to:
 
 **The task is to build a study system similar to Sisu. Below is a class diagram for the system that needs to be implemented. In the main program (`App.java`), you will create an object from the `Gifu` class, which allows creating new courses, new students, and adding students to courses. Additionally, various listings can be performed.**
 
-![main/pasted image 0.png](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%200.png?raw=true)
+![main/pasted image 0.png](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%200.png?raw=true)
 
 **A few notes about the program:**
 
@@ -493,7 +493,7 @@ By the end of the course, I am able to:
 
 **The application itself is quite simple. It will have two fields where the user can input numbers, and then four buttons for performing addition, subtraction, multiplication, and division on these numbers. The result of the calculation should be displayed in a text field below the buttons. Note that performing calculations with integers is sufficient, but you can also make the calculator work with floating-point numbers if you prefer. The user interface might look something like the example image below. You can customize the colors, fonts, and shapes as you like.**
 
-![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%201.png?raw=true)
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%201.png?raw=true)
 
 **Points for the assignment are awarded as follows:**
 
@@ -513,12 +513,12 @@ By the end of the course, I am able to:
 
 **This week’s task is to build an Android application that allows registering users into the system and listing them. You will need a main activity, an activity for collecting user information, and a third activity for listing users. Additionally, you need a `User` class for user data and a `UserStorage` class to hold `User` objects. Make `UserStorage` a Singleton to make it easy to access. (Note that you do not need to implement the `removeUser` method.)**
 
-![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%202.png?raw=true)
-![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%203.png?raw=true)
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%202.png?raw=true)
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%203.png?raw=true)
 
 **The second view lists the added users. You can implement the view in whichever way you think best.**
 
-![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%204.png?raw=true)
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%204.png?raw=true)
 
 **Points for the assignment are awarded as follows:**
 
