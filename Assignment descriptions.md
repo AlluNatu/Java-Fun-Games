@@ -537,7 +537,7 @@
 
 **This week, we will create a simple to-do/shopping list application, which allows you to add, edit, and delete items.**
 
-![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%205.png?raw=true)
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%205.png?raw=true)
 
 **1 point**
 
@@ -563,7 +563,7 @@
 
 **This week, we will develop the to-do/shopping list application to use fragments for the user interface. The goal is to use separate fragments for listing items and for adding new items. Additionally, the application will have a section at the bottom that continuously shows items marked as "super important". Note that this week, you do not necessarily need to implement editing and deleting functionality.**
 
-![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%206.png?raw=true)
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%206.png?raw=true)
 
 **1 point**
 
