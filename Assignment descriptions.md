@@ -1,9 +1,10 @@
-# Week 1
+# Assingment descriptions
+  ## Week 1
 1) Install a functional Java development environment (including JDK and IDE – for example, JDK for Windows and Visual Studio Code).
 2) Familiarize yourself with the IDE and create a new project.
 3) Write a Java program that prints "Hello World!" to the screen.
 
-# Week 2
+## Week 2
 
 **Write a program where you create a hedgehog object and control it through a menu structure. You will need an `App.java` file similar to the one from the first week. This file should contain the main method with the menu structure. Additionally, you need a `Hedgehog.java` file, which defines the `Hedgehog` class.**
 
@@ -64,7 +65,7 @@
       ***Example run ends***
 
 
-# Week 3
+## Week 3
 
 **In this week’s exercises, you will build a zoo. You will need an `App.java` file with a menu and additionally `Zoo` and `Animal` classes.**
 
@@ -152,7 +153,7 @@
       
       *** Esimerkkiajo päättyy ***
 
-  # Week 4
+  ## Week 4
 
 **In this week’s exercises, you will build a calculator class that can calculate course grades for students. You will need an `App.java` file with a menu and additionally `Calculator`, `University`, and `Student` classes. You might also need a `Grade` class depending on your implementation.**
 
@@ -299,7 +300,7 @@
       
       *** Esimerkkiajo päättyy ***
 
-  # Week 5
+  ## Week 5
 
 **This week, the goal is to practice inheritance. Your task is to create the `Vehicle`, `Car`, `Plane`, `Ship`, and `Engine` classes. The names listed above are mandatory and cannot be changed. All vehicles have an engine object. The engine has a name and power. For cars, the values are always "V8" and 300, for planes "Jet Engine" and 500, and for ships "Wärtsilä Super" and 1000.**
 
@@ -400,13 +401,13 @@
           
           *** Esimerkkiajo päättyy ***
 
-  # Week 7
+  ## Week 7
 
 **Week 7’s assignment is a bit more extensive than previous tasks, and you can earn 7 points instead of 5. These extra points will count towards the course evaluation, allowing you to make up for lost points or prepare for a rainy day.**
 
 **The task is to build a study system similar to Sisu. Below is a class diagram for the system that needs to be implemented. In the main program (`App.java`), you will create an object from the `Gifu` class, which allows creating new courses, new students, and adding students to courses. Additionally, various listings can be performed.**
 
-![main/pasted image 0.png](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%200.png?raw=true)
+![main/pasted image 0.png](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%200.png?raw=true)
 
 **A few notes about the program:**
 
@@ -454,13 +455,13 @@
 
 - The program should allow listing all grades for all students across all courses.
 
-# Week 8
+## Week 8
 
 **The goal for this week is to get the Android Studio development environment up and running and to build your first functional Android application.**
 
 **The application itself is quite simple. It will have two fields where the user can input numbers, and then four buttons for performing addition, subtraction, multiplication, and division on these numbers. The result of the calculation should be displayed in a text field below the buttons. Note that performing calculations with integers is sufficient, but you can also make the calculator work with floating-point numbers if you prefer. The user interface might look something like the example image below. You can customize the colors, fonts, and shapes as you like.**
 
-![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%201.png?raw=true)
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%201.png?raw=true)
 
 **Points for the assignment are awarded as follows:**
 
@@ -476,16 +477,16 @@
 
 - The application functions as a fully operational four-function calculator.
 
-# Week 9
+## Week 9
 
 **This week’s task is to build an Android application that allows registering users into the system and listing them. You will need a main activity, an activity for collecting user information, and a third activity for listing users. Additionally, you need a `User` class for user data and a `UserStorage` class to hold `User` objects. Make `UserStorage` a Singleton to make it easy to access. (Note that you do not need to implement the `removeUser` method.)**
 
-![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%202.png?raw=true)
-![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%203.png?raw=true)
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%202.png?raw=true)
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%203.png?raw=true)
 
 **The second view lists the added users. You can implement the view in whichever way you think best.**
 
-![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/pasted%20image%204.png?raw=true)
+![Screenshot](https://github.com/AlluNatu/Java-Fun-Games/blob/main/photos_for_description/pasted%20image%204.png?raw=true)
 
 **Points for the assignment are awarded as follows:**
 
@@ -509,7 +510,7 @@
 
 - When adding a user, the user can select an image. It is enough to choose an image from a pre-defined catalog (dropdown menu or radio buttons), or you can implement an option to upload an image. The image should also be visible in the user listing.
 
-# Week 10
+## Week 10
 
 **Continue with the previous week’s program with additional features. Each new feature is worth one point, and you can implement whichever features you want.**
 
@@ -533,7 +534,7 @@
 
 - When displaying user information, list all the qualifications that the user has completed (you must use `RecyclerView` for this – if you did this last week, you don’t need to do it again; just use the existing implementation).
 
-# Week 11
+## Week 11
 
 **This week, we will create a simple to-do/shopping list application, which allows you to add, edit, and delete items.**
 
@@ -559,7 +560,7 @@
 
 - The application allows choosing whether to display items in chronological or alphabetical order.
 
-# Week 12
+## Week 12
 
 **This week, we will develop the to-do/shopping list application to use fragments for the user interface. The goal is to use separate fragments for listing items and for adding new items. Additionally, the application will have a section at the bottom that continuously shows items marked as "super important". Note that this week, you do not necessarily need to implement editing and deleting functionality.**
 
