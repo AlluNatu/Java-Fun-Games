@@ -310,3 +310,160 @@ Here’s the translation:
       *** Esimerkkiajo päättyy ***
 
   # Week 5
+Here’s the translation:
+
+---
+
+**This week, the goal is to practice inheritance. Your task is to create the `Vehicle`, `Car`, `Plane`, `Ship`, and `Engine` classes. The names listed above are mandatory and cannot be changed. All vehicles have an engine object. The engine has a name and power. For cars, the values are always "V8" and 300, for planes "Jet Engine" and 500, and for ships "Wärtsilä Super" and 1000.**
+
+- The constructor of the `Vehicle` class takes parameters in the following order: `String type`, `String manufacturer`, `String model`, `int maxSpeed`. 
+- The specific vehicles (Car, Plane, Ship) take the parameters: `String manufacturer`, `String model`, `int maxSpeed`.
+
+**2 points**
+
+- Testing begins by verifying that the `Car`, `Plane`, and `Ship` classes inherit from the `Vehicle` class.
+
+**3 points**
+
+- The second test checks that the methods `drive`, `fly`, and `sail` (method names must be exactly as stated) are found only in the subclasses, not in the base class; `drive` in the `Car` class, `fly` in the `Plane` class, and `sail` in the `Ship` class.
+
+- The following tests will not be performed if the previous ones do not pass.
+
+**4 points**
+
+- The program should allow creating new cars, planes, and ships as shown in the example execution and listing their details. Store the objects in an `ArrayList<Vehicle>` data structure.
+
+**5 points**
+
+- The program should be able to drive, fly, or sail the created objects. You should be able to command all cars to drive, planes to fly, or ships to sail. Use the `instanceof` operator and type casting to move the correct objects.
+
+            *** Esimerkkiajo ***
+          
+          1) Luo uusi kulkuneuvo, 2) Listaa kulkuneuvot 3) Aja autoja, 4) Lennä lentokoneita, 5) Seilaa laivoja, 0) Lopeta ohjelma
+          1
+          Minkä kulkuneuvon haluat rakentaa? 1) auto, 2) lentokone, 3) laiva
+          1
+          Anna kulkuneuvon valmistaja:
+          Volvo
+          Anna kulkuneuvon malli:
+          240
+          Anna kulkuneuvon huippunopeus:
+          180
+          1) Luo uusi kulkuneuvo, 2) Listaa kulkuneuvot 3) Aja autoja, 4) Lennä lentokoneita, 5) Seilaa laivoja, 0) Lopeta ohjelma
+          1
+          Minkä kulkuneuvon haluat rakentaa? 1) auto, 2) lentokone, 3) laiva
+          1
+          Anna kulkuneuvon valmistaja:
+          Lada
+          Anna kulkuneuvon malli:
+          2105
+          Anna kulkuneuvon huippunopeus:
+          160
+          1) Luo uusi kulkuneuvo, 2) Listaa kulkuneuvot 3) Aja autoja, 4) Lennä lentokoneita, 5) Seilaa laivoja, 0) Lopeta ohjelma
+          1
+          Minkä kulkuneuvon haluat rakentaa? 1) auto, 2) lentokone, 3) laiva
+          3
+          Anna kulkuneuvon valmistaja:
+          Rauman telakka
+          Anna kulkuneuvon malli:
+          Oasis of the seas
+          Anna kulkuneuvon huippunopeus:
+          40
+          1) Luo uusi kulkuneuvo, 2) Listaa kulkuneuvot 3) Aja autoja, 4) Lennä lentokoneita, 5) Seilaa laivoja, 0) Lopeta ohjelma
+          1
+          Minkä kulkuneuvon haluat rakentaa? 1) auto, 2) lentokone, 3) laiva
+          2
+          Anna kulkuneuvon valmistaja:
+          Airbus
+          Anna kulkuneuvon malli:
+          727
+          Anna kulkuneuvon huippunopeus:
+          800
+          1) Luo uusi kulkuneuvo, 2) Listaa kulkuneuvot 3) Aja autoja, 4) Lennä lentokoneita, 5) Seilaa laivoja, 0) Lopeta ohjelma
+          2
+          Auto: Volvo 240
+          Moottori: V8 300kW
+          Huippunopeus: 180km/h
+          
+          Auto: Lada 2105
+          Moottori: V8 300kW
+          Huippunopeus: 160km/h
+          
+          Laiva: Rauman telakka Oasis of the seas
+          Moottori: Wärtsilä Super 1000kW
+          Huippunopeus: 40km/h
+          
+          Lentokone: Airbus 727
+          Moottori: Suihkumoottori 500kW
+          Huippunopeus: 800km/h
+          
+          1) Luo uusi kulkuneuvo, 2) Listaa kulkuneuvot 3) Aja autoja, 4) Lennä lentokoneita, 5) Seilaa laivoja, 0) Lopeta ohjelma
+          3
+          Volvo 240 paahtaa tietä eteenpäin!
+          Lada 2105 paahtaa tietä eteenpäin!
+          1) Luo uusi kulkuneuvo, 2) Listaa kulkuneuvot 3) Aja autoja, 4) Lennä lentokoneita, 5) Seilaa laivoja, 0) Lopeta ohjelma
+          4
+          Airbus 727 lentää kohteeseen!
+          1) Luo uusi kulkuneuvo, 2) Listaa kulkuneuvot 3) Aja autoja, 4) Lennä lentokoneita, 5) Seilaa laivoja, 0) Lopeta ohjelma
+          5
+          Rauman telakka Oasis of the seas seilaa merten ääriin!
+          1) Luo uusi kulkuneuvo, 2) Listaa kulkuneuvot 3) Aja autoja, 4) Lennä lentokoneita, 5) Seilaa laivoja, 0) Lopeta ohjelma
+          0
+          Kiitos ohjelman käytöstä.
+          
+          *** Esimerkkiajo päättyy ***
+
+  # Week 7
+  Here’s the translation:
+
+---
+
+**Week 7’s assignment is a bit more extensive than previous tasks, and you can earn 7 points instead of 5. These extra points will count towards the course evaluation, allowing you to make up for lost points or prepare for a rainy day.**
+
+**The task is to build a study system similar to Sisu. Below is a class diagram for the system that needs to be implemented. In the main program (`App.java`), you will create an object from the `Gifu` class, which allows creating new courses, new students, and adding students to courses. Additionally, various listings can be performed.**
+
+**A few notes about the program:**
+
+- Although there is a maximum number of students for a course, this value is not used anywhere.
+
+- `getCourse(int id)` and `getStudent(int id)` take the index of the course or student in the `ArrayList`, not the course ID (e.g., CT60A2411).
+
+- When a student enrolls in a course, the default grade is -1. When the course is graded, this grade is updated to reflect the actual course grade.
+
+- The `Gifu` class can be implemented to contain three `ArrayList`s: `courses`, `students`, and `enrollments`.
+
+- Methods such as `getCourses()` return an `ArrayList` of the appropriate type. In the example case, the return type would be `ArrayList<Course>`.
+
+- The `Enrollment` class contains the grade as well as references to the `Student` and `Course` objects. In practice, when an `Enrollment` object is created, it is given `Student` and `Course` objects as parameters.
+
+- `getEnrollments` methods compare the contents of the `enrollments` `ArrayList` to check if, for example, a `Student` object passed as a parameter is present. You can perform this check directly, e.g., `if (enrollment.getStudent() == studentParameter)`.
+
+- The `Student` class does not have any methods for printing anything. Printing is handled in the main program; the main program prints the contents of the `Student` class that implements the `getInformation` interface to the user as needed.
+
+**1 point**
+
+- The program should allow creating new courses and listing them.
+
+**2 points**
+
+- The program should allow creating new students and listing them.
+
+**3 points**
+
+- The class interfaces should function as defined in the class diagram. At this stage, test methods such as `addCourse`, `getCourse`, `listCourses`, `addStudent`, `getStudent`, and `listStudents`. From this point on, additional points will also test the corresponding interface.
+
+**4 points**
+
+- The program should allow adding a student to a course and listing the students enrolled in the course.
+
+**5 points**
+
+- The program should allow assigning grades to students in a course.
+
+**6 points**
+
+- The program should allow listing the grades received by a specific student.
+
+**7 points**
+
+- The program should allow listing all grades for all students across all courses.
