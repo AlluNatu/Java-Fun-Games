@@ -422,6 +422,8 @@ Here’s the translation:
 
 **The task is to build a study system similar to Sisu. Below is a class diagram for the system that needs to be implemented. In the main program (`App.java`), you will create an object from the `Gifu` class, which allows creating new courses, new students, and adding students to courses. Additionally, various listings can be performed.**
 
+![Tree](pasted image 0.png)
+
 **A few notes about the program:**
 
 - Although there is a maximum number of students for a course, this value is not used anywhere.
